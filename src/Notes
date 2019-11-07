@@ -1,0 +1,11 @@
+Server sidan
+Behöver en serverSocket
+Och en vanlig socket som får = ServerSocket.accept(); vilket innebär att socketen som kommunicerar väntar på klienten
+Klient sidan
+Behöver en socket som kommunicerar med servern
+
+Klienten skickar frågor via utströmmen
+Klienten får svar via inströmmen
+Servern får frågorna via inströmmen
+Servern skickar svaren via utströmmen
+
